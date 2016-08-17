@@ -4,7 +4,7 @@
 本节我们学习另一种单层神经网络：自适应线性神经元(ADAptive LInear NEuron, 简称Adaline)。在Frank Rosenblatt提出感知计算法不久，Bernard Widrow和他的博士生Tedd Hoff提出了Adaline算法作为感知机的改进算法(B.Widrow et al. Adaptive "Adaline" neuron using chemical "memistors".)
 
 
-相对于感知机，Adaline算法有趣的多，因为在学习Adaline的过程中涉及到机器学习中一个重要的概念：定义、最小化损失函数。学习Adaline为以后学习更复杂高端的算法(比如逻辑斯蒂回归、SVM等)起到抛砖引玉的作用。
+相对于感知机，Adaline算法有趣的多，因为在学习Adaline的过程中涉及到机器学习中一个重要的概念：定义、最小化损失函数。学习Adaline为以后学习更复杂高端的算法(比如逻辑回归、SVM等)起到抛砖引玉的作用。
 
 Adaline和感知机的一个重要区别是Adaline算法中权重参数更新按照线性激活函数而不是单位阶跃函数。当然，Adaline中激活函数也简单的很，$$\phi(z)=\phi(w^{T}x)=w^{T}x$$。
 
